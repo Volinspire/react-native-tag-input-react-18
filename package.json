@@ -1,7 +1,7 @@
 {
   "name": "react-native-tag-input",
   "description": "A tag input component for react-native",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "author": "Jack Wohlfert (https://github.com/jwohlfert23)",
   "keywords": [
     "email input",
@@ -24,16 +24,17 @@
     "lint": "eslint src"
   },
   "dependencies": {
-    "invariant": "^2.2.2",
-    "prop-types": "^15.5.10"
+    "deprecated-react-native-prop-types": "^4.2.1",
+    "invariant": "^2.2.4",
+    "prop-types": "^15.8.1"
   },
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
+    "flow-bin": "^0.63.0",
     "react": "16.2.0",
-    "react-native": "^0.53.0",
-    "flow-bin": "^0.63.0"
+    "react-native": "^0.53.0"
   }
 }
